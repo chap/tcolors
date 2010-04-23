@@ -1,0 +1,112 @@
+<%= form_for(@item) do |f| %>
+  <% if @item.errors.any? %>
+  <div id="errorExplanation">
+    <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+    <ul>
+    <% @item.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :company %><br />
+    <%= f.text_field :company %>
+  </div>
+  <div class="field">
+    <%= f.label :item_number %><br />
+    <%= f.text_field :item_number %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :features %><br />
+    <%= f.text_area :features %>
+  </div>
+  <div class="field">
+    <%= f.label :p1_pricing %><br />
+    <%= f.text_field :p1_pricing %>
+  </div>
+  <div class="field">
+    <%= f.label :p2_pricing %><br />
+    <%= f.text_field :p2_pricing %>
+  </div>
+  <div class="field">
+    <%= f.label :p4_pricing %><br />
+    <%= f.text_field :p4_pricing %>
+  </div>
+  <div class="field">
+    <%= f.label :style_code %><br />
+    <%= f.text_field :style_code %>
+  </div>
+  <div class="field">
+    <%= f.label :size_name %><br />
+    <%= f.text_field :size_name %>
+  </div>
+  <div class="field">
+    <%= f.label :size_category %><br />
+    <%= f.text_field :size_category %>
+  </div>
+  <div class="field">
+    <%= f.label :size_code %><br />
+    <%= f.text_field :size_code %>
+  </div>
+  <div class="field">
+    <%= f.label :color_name %><br />
+    <%= f.text_field :color_name %>
+  </div>
+  <div class="field">
+    <%= f.label :hex_code %><br />
+    <%= f.text_field :hex_code %>
+  </div>
+  <div class="field">
+    <%= f.label :color_code %><br />
+    <%= f.text_field :color_code %>
+  </div>
+  <div class="field">
+    <%= f.label :weight %><br />
+    <%= f.text_field :weight %>
+  </div>
+  <div class="field">
+    <%= f.label :domain %><br />
+    <%= f.text_field :domain %>
+  </div>
+  <div class="field">
+    <%= f.label :detail_image_url %><br />
+    <%= f.text_field :detail_image_url %>
+  </div>
+  <div class="field">
+    <%= f.label :image_url %><br />
+    <%= f.text_field :image_url %>
+  </div>
+  <div class="field">
+    <%= f.label :retail_price %><br />
+    <%= f.text_field :retail_price %>
+  </div>
+  <div class="field">
+    <%= f.label :style_number %><br />
+    <%= f.text_field :style_number %>
+  </div>
+  <div class="field">
+    <%= f.label :gtin_number %><br />
+    <%= f.text_field :gtin_number %>
+  </div>
+  <div class="field">
+    <%= f.label :max_inventory %><br />
+    <%= f.text_field :max_inventory %>
+  </div>
+  <div class="field">
+    <%= f.label :closeout %><br />
+    <%= f.text_field :closeout %>
+  </div>
+  <div class="field">
+    <%= f.label :mill_name %><br />
+    <%= f.text_field :mill_name %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

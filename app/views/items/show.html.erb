@@ -1,0 +1,125 @@
+<p class="notice"><%= notice %></p>
+
+<p>
+  <b>Company:</b>
+  <%= @item.company %>
+</p>
+
+<p>
+  <b>Item number:</b>
+  <%= @item.item_number %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @item.description %>
+</p>
+
+<p>
+  <b>Features:</b>
+  <%= @item.features %>
+</p>
+
+<p>
+  <b>P1 pricing:</b>
+  <%= @item.p1_pricing %>
+</p>
+
+<p>
+  <b>P2 pricing:</b>
+  <%= @item.p2_pricing %>
+</p>
+
+<p>
+  <b>P4 pricing:</b>
+  <%= @item.p4_pricing %>
+</p>
+
+<p>
+  <b>Style code:</b>
+  <%= @item.style_code %>
+</p>
+
+<p>
+  <b>Size name:</b>
+  <%= @item.size_name %>
+</p>
+
+<p>
+  <b>Size category:</b>
+  <%= @item.size_category %>
+</p>
+
+<p>
+  <b>Size code:</b>
+  <%= @item.size_code %>
+</p>
+
+<p>
+  <b>Color name:</b>
+  <%= @item.color_name %>
+</p>
+
+<p>
+  <b>Hex code:</b>
+  <%= @item.hex_code %>
+</p>
+
+<p>
+  <b>Color code:</b>
+  <%= @item.color_code %>
+</p>
+
+<p>
+  <b>Weight:</b>
+  <%= @item.weight %>
+</p>
+
+<p>
+  <b>Domain:</b>
+  <%= @item.domain %>
+</p>
+
+<p>
+  <b>Detail image url:</b>
+  <%= @item.detail_image_url %>
+</p>
+
+<p>
+  <b>Image url:</b>
+  <%= @item.image_url %>
+</p>
+
+<p>
+  <b>Retail price:</b>
+  <%= @item.retail_price %>
+</p>
+
+<p>
+  <b>Style number:</b>
+  <%= @item.style_number %>
+</p>
+
+<p>
+  <b>Gtin number:</b>
+  <%= @item.gtin_number %>
+</p>
+
+<p>
+  <b>Max inventory:</b>
+  <%= @item.max_inventory %>
+</p>
+
+<p>
+  <b>Closeout:</b>
+  <%= @item.closeout %>
+</p>
+
+<p>
+  <b>Mill name:</b>
+  <%= @item.mill_name %>
+</p>
+
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>

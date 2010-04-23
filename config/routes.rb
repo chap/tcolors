@@ -1,4 +1,7 @@
 Blanks::Application.routes.draw do |map|
+  resources :items
+  root :to => "items#index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

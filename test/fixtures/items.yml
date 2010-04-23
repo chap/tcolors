@@ -1,0 +1,53 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  company: MyString
+  item_number: MyString
+  description: MyText
+  features: MyText
+  p1_pricing: 9.99
+  p2_pricing: 9.99
+  p4_pricing: 9.99
+  style_code: MyString
+  size_name: MyString
+  size_category: MyString
+  size_code: MyString
+  color_name: MyString
+  hex_code: MyString
+  color_code: MyString
+  weight: 1.5
+  domain: 1.5
+  detail_image_url: MyString
+  image_url: MyString
+  retail_price: 9.99
+  style_number: MyString
+  gtin_number: MyString
+  max_inventory: MyString
+  closeout: MyString
+  mill_name: MyString
+
+two:
+  company: MyString
+  item_number: MyString
+  description: MyText
+  features: MyText
+  p1_pricing: 9.99
+  p2_pricing: 9.99
+  p4_pricing: 9.99
+  style_code: MyString
+  size_name: MyString
+  size_category: MyString
+  size_code: MyString
+  color_name: MyString
+  hex_code: MyString
+  color_code: MyString
+  weight: 1.5
+  domain: 1.5
+  detail_image_url: MyString
+  image_url: MyString
+  retail_price: 9.99
+  style_number: MyString
+  gtin_number: MyString
+  max_inventory: MyString
+  closeout: MyString
+  mill_name: MyString

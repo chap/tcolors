@@ -1,0 +1,9 @@
+<table width="100%">
+<% @gildan_tees_by_color.each do |color, tees| %>
+  <tr>
+    <td style="background:#<%= tees.first.hex_code %>;height:2em;color:#fff;">
+      <%= color.humanize %>
+    </td>
+  </tr>
+<% end %>
+</table>
